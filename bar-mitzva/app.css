@@ -1,0 +1,59 @@
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.torah-text {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  margin: 20px;
+  background-color: azure;
+  border: 1px solid black;
+}
+.navigation-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  background-color: azure;
+  border: 1px solid black;
+  flex-wrap: wrap;
+}
+
+.footer-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  background-color: azure;
+  border: 1px solid black;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: gray;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: rgb(88, 88, 88);
+}
+
+#previous {
+    flex-grow: 1;
+    text-align: right;
+}
+
+#next {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.part-div,
+.audio-div,
+.table-div {
+    flex-grow: 1;
+    text-align: center;
+}
